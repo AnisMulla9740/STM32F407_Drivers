@@ -1,0 +1,17 @@
+../Drivers_Devices/Src/stm32f407xx_spi.c:14:6:SPI_PeriClockControl	8
+../Drivers_Devices/Src/stm32f407xx_spi.c:36:6:SPI_Init	3
+../Drivers_Devices/Src/stm32f407xx_spi.c:71:6:SPI_DeInit	4
+../Drivers_Devices/Src/stm32f407xx_spi.c:86:6:SPI_SendData	5
+../Drivers_Devices/Src/stm32f407xx_spi.c:114:6:SPI_ReceiveData	4
+../Drivers_Devices/Src/stm32f407xx_spi.c:139:9:SPI_SendDataIT	2
+../Drivers_Devices/Src/stm32f407xx_spi.c:156:9:SPI_ReceiveDataIT	2
+../Drivers_Devices/Src/stm32f407xx_spi.c:173:6:SPI_PeripheralControl	2
+../Drivers_Devices/Src/stm32f407xx_spi.c:185:9:SPI_GetFlagStatus	2
+../Drivers_Devices/Src/stm32f407xx_spi.c:194:6:SPI_SSIConfig	2
+../Drivers_Devices/Src/stm32f407xx_spi.c:205:6:SPI_SSOEConfig	2
+../Drivers_Devices/Src/stm32f407xx_spi.c:217:6:SPI_CloseTransmitter	1
+../Drivers_Devices/Src/stm32f407xx_spi.c:226:6:SPI_CloseReceiver	1
+../Drivers_Devices/Src/stm32f407xx_spi.c:235:6:SPI_IRQInterruptConfig	8
+../Drivers_Devices/Src/stm32f407xx_spi.c:256:6:SPI_IRQPriorityConfig	1
+../Drivers_Devices/Src/stm32f407xx_spi.c:267:6:SPI_IRQHandling	12
+../Drivers_Devices/Src/stm32f407xx_spi.c:338:28:SPI_ApplicationEventCallback	1

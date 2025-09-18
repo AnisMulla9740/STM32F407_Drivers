@@ -1,0 +1,8 @@
+"./Drivers_Devices/Src/stm32f407xx.o"
+"./Drivers_Devices/Src/stm32f407xx_gpio.o"
+"./Drivers_Devices/Src/stm32f407xx_i2c.o"
+"./Drivers_Devices/Src/stm32f407xx_spi.o"
+"./Src/main.o"
+"./Src/syscalls.o"
+"./Src/sysmem.o"
+"./Startup/startup_stm32f407vgtx.o"
