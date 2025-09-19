@@ -1,9 +1,12 @@
 /**
   ******************************************************************************
-  * @file    stm32f407xx.h
-  * @author  Anis Mulla
-  * @version V2.1.0
-  * @date	 10 September 2025
+  * @file    	stm32f407xx.h
+  * @author  	Anis Mulla
+  * @reference 	Programming manual STM32 ARM Cortex,
+  				RM0090 Reference Manual STM32f407
+	  			STM32F405xx STM32F407xx ST's Datasheet
+  * @version 	V2.1.0
+  * @date	 	10 September 2025
   ******************************************************************************
   */
 
