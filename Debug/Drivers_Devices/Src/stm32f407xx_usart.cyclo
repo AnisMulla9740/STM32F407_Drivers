@@ -1,0 +1,16 @@
+../Drivers_Devices/Src/stm32f407xx_usart.c:13:17:USART_ComputeBRR	3
+../Drivers_Devices/Src/stm32f407xx_usart.c:26:17:USART_GetPCLK	8
+../Drivers_Devices/Src/stm32f407xx_usart.c:70:6:USART_PeriClockControl	14
+../Drivers_Devices/Src/stm32f407xx_usart.c:92:6:USART_Init	9
+../Drivers_Devices/Src/stm32f407xx_usart.c:158:6:USART_DeInit	4
+../Drivers_Devices/Src/stm32f407xx_usart.c:178:6:USART_SendData	6
+../Drivers_Devices/Src/stm32f407xx_usart.c:216:6:USART_ReceiveData	6
+../Drivers_Devices/Src/stm32f407xx_usart.c:259:9:USART_SendDataIT	1
+../Drivers_Devices/Src/stm32f407xx_usart.c:275:9:USART_ReceiveDataIT	1
+../Drivers_Devices/Src/stm32f407xx_usart.c:290:6:USART_IRQHandling	18
+../Drivers_Devices/Src/stm32f407xx_usart.c:387:6:USART_IRQInterruptConfig	2
+../Drivers_Devices/Src/stm32f407xx_usart.c:404:6:USART_IRQPriorityConfig	1
+../Drivers_Devices/Src/stm32f407xx_usart.c:412:6:USART_PeripheralControl	2
+../Drivers_Devices/Src/stm32f407xx_usart.c:420:9:USART_GetFlagStatus	1
+../Drivers_Devices/Src/stm32f407xx_usart.c:425:6:USART_ClearFlag	2
+../Drivers_Devices/Src/stm32f407xx_usart.c:447:28:USART_ApplicationEventCallback	1
