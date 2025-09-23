@@ -1,0 +1,14 @@
+../Drivers_Devices/Src/stm32f407xx_adc.c:11:6:ADC_PeriClockControl	8
+../Drivers_Devices/Src/stm32f407xx_adc.c:33:6:ADC_Init	7
+../Drivers_Devices/Src/stm32f407xx_adc.c:90:6:ADC_DeInit	1
+../Drivers_Devices/Src/stm32f407xx_adc.c:105:10:ADC_ReadSingleConversion	3
+../Drivers_Devices/Src/stm32f407xx_adc.c:142:6:ADC_StartConversion	2
+../Drivers_Devices/Src/stm32f407xx_adc.c:157:6:ADC_StopConversion	1
+../Drivers_Devices/Src/stm32f407xx_adc.c:168:6:ADC_IRQInterruptConfig	8
+../Drivers_Devices/Src/stm32f407xx_adc.c:190:6:ADC_IRQPriorityConfig	1
+../Drivers_Devices/Src/stm32f407xx_adc.c:199:6:ADC_IRQHandling	5
+../Drivers_Devices/Src/stm32f407xx_adc.c:230:6:ADC_SetChannelSampleTime	3
+../Drivers_Devices/Src/stm32f407xx_adc.c:251:6:ADC_SelectRegularChannel	7
+../Drivers_Devices/Src/stm32f407xx_adc.c:280:6:ADC_RegisterCallback	1
+../Drivers_Devices/Src/stm32f407xx_adc.c:286:6:ADC_ConfigRegularSequence	6
+../Drivers_Devices/Src/stm32f407xx_adc.c:323:6:ADC_ConfigExternalTrigger	1

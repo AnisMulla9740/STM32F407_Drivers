@@ -1,4 +1,5 @@
 "./Drivers_Devices/Src/stm32f407xx.o"
+"./Drivers_Devices/Src/stm32f407xx_adc.o"
 "./Drivers_Devices/Src/stm32f407xx_gpio.o"
 "./Drivers_Devices/Src/stm32f407xx_i2c.o"
 "./Drivers_Devices/Src/stm32f407xx_spi.o"
