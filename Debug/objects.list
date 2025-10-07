@@ -3,6 +3,7 @@
 "./Drivers_Devices/Src/stm32f407xx_gpio.o"
 "./Drivers_Devices/Src/stm32f407xx_i2c.o"
 "./Drivers_Devices/Src/stm32f407xx_spi.o"
+"./Drivers_Devices/Src/stm32f407xx_timer.o"
 "./Drivers_Devices/Src/stm32f407xx_usart.o"
 "./Src/main.o"
 "./Src/syscalls.o"

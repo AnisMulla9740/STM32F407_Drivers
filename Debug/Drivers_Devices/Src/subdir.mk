@@ -10,6 +10,7 @@ C_SRCS += \
 ../Drivers_Devices/Src/stm32f407xx_gpio.c \
 ../Drivers_Devices/Src/stm32f407xx_i2c.c \
 ../Drivers_Devices/Src/stm32f407xx_spi.c \
+../Drivers_Devices/Src/stm32f407xx_timer.c \
 ../Drivers_Devices/Src/stm32f407xx_usart.c 
 
 OBJS += \
@@ -18,6 +19,7 @@ OBJS += \
 ./Drivers_Devices/Src/stm32f407xx_gpio.o \
 ./Drivers_Devices/Src/stm32f407xx_i2c.o \
 ./Drivers_Devices/Src/stm32f407xx_spi.o \
+./Drivers_Devices/Src/stm32f407xx_timer.o \
 ./Drivers_Devices/Src/stm32f407xx_usart.o 
 
 C_DEPS += \
@@ -26,6 +28,7 @@ C_DEPS += \
 ./Drivers_Devices/Src/stm32f407xx_gpio.d \
 ./Drivers_Devices/Src/stm32f407xx_i2c.d \
 ./Drivers_Devices/Src/stm32f407xx_spi.d \
+./Drivers_Devices/Src/stm32f407xx_timer.d \
 ./Drivers_Devices/Src/stm32f407xx_usart.d 
 
 
@@ -36,7 +39,7 @@ Drivers_Devices/Src/%.o Drivers_Devices/Src/%.su Drivers_Devices/Src/%.cyclo: ..
 clean: clean-Drivers_Devices-2f-Src
 
 clean-Drivers_Devices-2f-Src:
-	-$(RM) ./Drivers_Devices/Src/stm32f407xx.cyclo ./Drivers_Devices/Src/stm32f407xx.d ./Drivers_Devices/Src/stm32f407xx.o ./Drivers_Devices/Src/stm32f407xx.su ./Drivers_Devices/Src/stm32f407xx_adc.cyclo ./Drivers_Devices/Src/stm32f407xx_adc.d ./Drivers_Devices/Src/stm32f407xx_adc.o ./Drivers_Devices/Src/stm32f407xx_adc.su ./Drivers_Devices/Src/stm32f407xx_gpio.cyclo ./Drivers_Devices/Src/stm32f407xx_gpio.d ./Drivers_Devices/Src/stm32f407xx_gpio.o ./Drivers_Devices/Src/stm32f407xx_gpio.su ./Drivers_Devices/Src/stm32f407xx_i2c.cyclo ./Drivers_Devices/Src/stm32f407xx_i2c.d ./Drivers_Devices/Src/stm32f407xx_i2c.o ./Drivers_Devices/Src/stm32f407xx_i2c.su ./Drivers_Devices/Src/stm32f407xx_spi.cyclo ./Drivers_Devices/Src/stm32f407xx_spi.d ./Drivers_Devices/Src/stm32f407xx_spi.o ./Drivers_Devices/Src/stm32f407xx_spi.su ./Drivers_Devices/Src/stm32f407xx_usart.cyclo ./Drivers_Devices/Src/stm32f407xx_usart.d ./Drivers_Devices/Src/stm32f407xx_usart.o ./Drivers_Devices/Src/stm32f407xx_usart.su
+	-$(RM) ./Drivers_Devices/Src/stm32f407xx.cyclo ./Drivers_Devices/Src/stm32f407xx.d ./Drivers_Devices/Src/stm32f407xx.o ./Drivers_Devices/Src/stm32f407xx.su ./Drivers_Devices/Src/stm32f407xx_adc.cyclo ./Drivers_Devices/Src/stm32f407xx_adc.d ./Drivers_Devices/Src/stm32f407xx_adc.o ./Drivers_Devices/Src/stm32f407xx_adc.su ./Drivers_Devices/Src/stm32f407xx_gpio.cyclo ./Drivers_Devices/Src/stm32f407xx_gpio.d ./Drivers_Devices/Src/stm32f407xx_gpio.o ./Drivers_Devices/Src/stm32f407xx_gpio.su ./Drivers_Devices/Src/stm32f407xx_i2c.cyclo ./Drivers_Devices/Src/stm32f407xx_i2c.d ./Drivers_Devices/Src/stm32f407xx_i2c.o ./Drivers_Devices/Src/stm32f407xx_i2c.su ./Drivers_Devices/Src/stm32f407xx_spi.cyclo ./Drivers_Devices/Src/stm32f407xx_spi.d ./Drivers_Devices/Src/stm32f407xx_spi.o ./Drivers_Devices/Src/stm32f407xx_spi.su ./Drivers_Devices/Src/stm32f407xx_timer.cyclo ./Drivers_Devices/Src/stm32f407xx_timer.d ./Drivers_Devices/Src/stm32f407xx_timer.o ./Drivers_Devices/Src/stm32f407xx_timer.su ./Drivers_Devices/Src/stm32f407xx_usart.cyclo ./Drivers_Devices/Src/stm32f407xx_usart.d ./Drivers_Devices/Src/stm32f407xx_usart.o ./Drivers_Devices/Src/stm32f407xx_usart.su
 
 .PHONY: clean-Drivers_Devices-2f-Src
 
